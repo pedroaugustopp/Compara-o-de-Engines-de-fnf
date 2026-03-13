@@ -109,37 +109,22 @@ footer {
     color: #1b4fff; /* Fica azul para indicar que é clicável */
     text-decoration: underline; /* Adiciona o sublinhado ao passar o mouse */
 }
-/* Container para o vídeo do YouTube se adaptar à tela */
-.video-wrapper {
-    margin-top: 20px;
-    border-radius: 10px;
-    overflow: hidden; /* Mantém as bordas arredondadas no vídeo */
-    box-shadow: 0 5px 15px rgba(0,0,0,0.4);
-    background-color: #000;
-}
-
-/* Estilo para a sessão de créditos */
-.creditos-mod {
-    margin-top: 15px;
-    font-size: 0.9rem;
-    color: #aaaaaa; /* Cor cinza mais clara para não brigar com o texto principal */
-    font-style: italic;
-    border-top: 1px solid #444; /* Linha sutil separando o vídeo dos créditos */
-    padding-top: 10px;
-}
-
-.creditos-mod b {
-    color: #ffffff; /* Destaca a palavra "Créditos" */
-}
-
-/* Links dentro dos créditos */
-.creditos-mod a {
-    color: #3a6bff; /* Azul para combinar com o tema */
+/* Estilo do Botão Voltar nas páginas de Build */
+.btn-voltar {
+    display: inline-block;
+    background-color: #222;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 8px;
     text-decoration: none;
     font-weight: bold;
+    border: 2px solid #ff2a2a;
+    transition: all 0.3s ease;
+    font-family: 'Poppins', sans-serif;
 }
 
-.creditos-mod a:hover {
-    color: #ff6aa5; /* Fica rosa ao passar o mouse */
-    text-decoration: underline;
+.btn-voltar:hover {
+    background-color: #ff2a2a;
+    color: #fff;
+    box-shadow: 0 0 15px rgba(255, 42, 42, 0.6);
 }
