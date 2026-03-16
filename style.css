@@ -32,22 +32,25 @@ header p {
     opacity: 0.9;
     text-shadow: 1px 1px 3px rgba(0,0,0,0.5);
 }
+/* --- Limita a largura de tudo e centraliza no meio da tela --- */
 .container {
-    max-width: 850px;
-    margin: auto;
+    max-width: 900px; /* Esse é o tamanho máximo da caixa branca */
+    margin: 0 auto; /* Centraliza a caixa na tela */
     padding: 20px;
 }
 
-/* Fundo branco da sessão de engines corrigido */
+/* --- O Cartão Branco --- */
 .engine {
-    background-color: #ffffff; 
+    background-color: #ffffff;
     padding: 30px;
     margin-bottom: 40px;
     border-radius: 20px;
     box-shadow: 0 10px 30px rgba(0,0,0,0.2);
-    overflow: hidden; /* Garante que nada saia do card */
+    display: block; /* MUITO IMPORTANTE: Garante que imagem e texto fiquem um embaixo do outro */
+    width: 100%;
+    box-sizing: border-box; /* Impede que o padding faça a caixa "vazar" da tela */
+    overflow: hidden;
 }
-
 /* Container da imagem para evitar que ela estique ou corte */
 .image-wrapper {
     width: 100%;
