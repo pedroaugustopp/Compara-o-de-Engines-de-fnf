@@ -141,15 +141,27 @@ footer {
     border-radius: 12px;
 }
 
-/* Faz a imagem respeitar o link e não esticar */
+.image-wrapper {
+    width: 100%;
+    /* APAGUE A LINHA height: 350px; SE ELA ESTIVER AQUI */
+    border-radius: 12px;
+    overflow: hidden; /* Essencial: não deixa a imagem vazar quando der zoom */
+    margin-bottom: 20px;
+}
+.image-wrapper a {
+    display: block; 
+    width: 100%;
+}
+
+/* --- A IMAGEM EM SI --- */
 .image-wrapper a img {
-    max-width: 100%;
-    max-height: 100%;
-    object-fit: contain; /* Garante que ela não seja cortada */
+    width: 100%; /* Faz a imagem preencher a largura toda do cartão */
+    height: auto; /* A altura se ajusta sozinha para não distorcer */
+    display: block; /* Remove espaços em branco embaixo da foto */
     transition: transform 0.3s ease; /* Prepara a animação */
 }
 
-/* Efeito de zoom ao passar o mouse */
+/* --- EFEITO DE ZOOM AO PASSAR O MOUSE --- */
 .image-wrapper a:hover img {
-    transform: scale(1.05);
+    transform: scale(1.05); /* Dá um zoom de 5% */
 }
