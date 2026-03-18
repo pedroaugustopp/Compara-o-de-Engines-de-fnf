@@ -21,3 +21,4 @@ Cards Informativos: Conteúdo organizado em cartões com profundidade e interati
 Imagens Otimizadas: Sistema de contêineres que garante que as capturas de tela das engines sejam exibidas por inteiro, sem cortes ou distorções.
 
 Acesso ao Código-Fonte: Títulos integrados com links que redirecionam o usuário diretamente para os repositórios oficiais do GitHub de cada desenvolvedor.
+ **ATENÇÃO BAIXE PARA O SITE FUNCIONAR CORRETAMENTE**
